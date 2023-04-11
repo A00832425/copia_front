@@ -33,6 +33,8 @@ function App() {
             <tr>
               <td>{res.Id_Stack}</td>
               <td>{res.Name_Stack}</td>
+              <td>{res.Version_Stack}</td>
+              <td>{res.Requisite_Stack}</td>
             </tr>
           ))}
         </table>
